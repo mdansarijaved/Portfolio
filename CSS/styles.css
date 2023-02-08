@@ -47,6 +47,10 @@ nav {
   justify-content: space-between;
   text-align: center;
 }
+.nav {
+  min-height: 100dvh;
+  
+}
 .image {
   height: 8rem;
 }
@@ -61,7 +65,7 @@ nav ul li {
 
   /* color: white; */
   color: #274841;
-
+  transition: color 1s ease-in-out;
   display: inline-block;
   font-size: 20px;
   font-weight: 900;
@@ -71,35 +75,29 @@ nav ul li {
 }
 
 .container1 {
-  /* max-height: 100vh; */
-  /* max-width: 100%; */
-  min-height: 100dvh;
+  
   color: #274841;
-  padding-top: 13%;
+  padding-top: 9%;
   padding-left: 30px;
   font-size: min(10vw, 100px);
-  /* font-weight: 700; */
   padding-bottom: 3rem;
+}
+.portfolio {
+  transition: color 1s ease-in-out;
 }
 
 .heading {
-  /* font-family: 'Oswald', sans-serif; */
-  /* font-family: 'Montserrat', sans-serif; */
   font-family: "Italiana", serif;
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-weight: 100; */
-  /* font-size: 150px; */
-  font-size: 150px;
-}
-/* .bold{
-font-weight: 900;
 
-} */
+  font-size: 150px;
+  transition: color 1s ease-in-out;
+}
 
 .about {
   background-color: #fffff2;
   display: inline-block;
   width: 100%;
+  min-height: 100vh;
   text-align: center;
   color: #355d54;
 }
@@ -116,32 +114,31 @@ font-weight: 900;
   padding: 5rem 0;
 }
 
-.heading:hover,.portfolio:hover{
-    color: #fffff2;
-    transition: 2s;
+.heading:hover,
+.portfolio:hover {
+  color: #fffff2;
 }
 
-nav ul li:hover{
-    color: #fffff2;
-    transition: 1s;
+nav ul li:hover {
+  color: #fffff2;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #fffff2;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #274841;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #274841;
-  }
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fffff2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #274841;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #274841;
+}
